@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
@@ -31,7 +32,7 @@ export default function Layout({
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
             <a className="navbar-item">
-              <Image src="/images/vercel.svg" alt="logo" layout="fill"/>
+              <Image src="/images/vercel.svg" alt="logo"  width={200} height={50} />
             </a>
             <a
               id="burger"
