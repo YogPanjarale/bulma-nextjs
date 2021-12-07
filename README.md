@@ -1,21 +1,23 @@
-# Remote Fuel Monitoring Dashboard
+# [Bulma](https://bulma.io) with [Nextjs](https://nextjs.org)
 
-1. login to the Fuel dashboard
-2. Dashboard
-3. settings page
+Starter template for [Bulma](https://bulma.io) with [Nextjs](https://nextjs.org)
 
-## Things on Dashboards
+## Get Started
 
-1. Switch for the engine (3 pos (off|on|start))
-2. Latest Value of all the metrics
-3. graph of the metrics
-color for high and low values
+### 1. clone it
 
-## Things on Settings
+```bash
+npx degit YogPanjarale/bulma-nextjs my-project
+```
 
-1. High Low points fro the metrics
+### 2. install dependencies 📦
 
-## Things on NavBar Profile
+```bash
+    yarn # or npm install
+```
 
-1. Profile,
-2. Logout
+### 3. run the app 🚀
+
+```bash
+yarn dev # or npm run dev
+```

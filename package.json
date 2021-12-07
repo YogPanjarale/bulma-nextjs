@@ -1,6 +1,6 @@
 {
   "name": "next-with-bulma-css",
-  "private": true,
+  "author": "Yog Panjarale",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
